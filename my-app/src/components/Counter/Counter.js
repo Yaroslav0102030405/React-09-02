@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import * as action from '../../redux/actions';
+import * as action from '../../redux/counter/counter-actions';
 import Controls from './Controls';
 import Value from './Value';
 import './Counter.css';
